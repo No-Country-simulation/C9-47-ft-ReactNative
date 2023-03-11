@@ -77,7 +77,7 @@ export default function MessageScreen() {
     <View style={{ flex: 1 }}>
       <View
         style={{
-          height: 100,
+          height: 60,
           justifyContent: "center",
           backgroundColor: `${colors.primary}`,
           shadowColor: "#000",
@@ -90,7 +90,6 @@ export default function MessageScreen() {
         <TouchableOpacity
           style={{
             flexDirection: "row",
-            marginTop: 40,
             marginLeft: 20,
             alignItems: "center",
           }}

@@ -244,7 +244,7 @@ const Profile = () => {
 
 const styles = StyleSheet.create({
   container: {
-    marginTop: Constants.statusBarHeight,
+    marginTop: 0,
     justifyContent: "center",
   },
   blueBackground: {

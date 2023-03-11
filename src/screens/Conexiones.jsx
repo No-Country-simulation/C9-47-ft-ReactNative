@@ -63,7 +63,7 @@ const Conexiones = ({ navigation }) => {
 
   return (
     <DisplayContainer style={styles.container}>
-      <Header />
+      <Header screen="Conexiones" />
       <ScrollView>
         <View style={styles.header}>
           <MaterialCommunityIcons
@@ -133,7 +133,7 @@ const Conexiones = ({ navigation }) => {
 const styles = StyleSheet.create({
   container: {
     justifyContent: "flex-start",
-    marginTop: Constants.statusBarHeight,
+    marginTop: 0,
   },
   header: {
     alignItems: "center",

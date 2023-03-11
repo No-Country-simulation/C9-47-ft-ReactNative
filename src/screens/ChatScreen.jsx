@@ -1,5 +1,5 @@
 import React, { useContext, useEffect } from "react";
-import { SafeAreaView, Text, StyleSheet } from "react-native";
+import { View, Text, StyleSheet } from "react-native";
 import theme from "../theme";
 import ChatList from "../components/ChatList";
 import { useIsFocused } from "@react-navigation/native";
@@ -17,9 +17,6 @@ export default function ChatScreen() {
 
   return (
     <>
-      <SafeAreaView style={styles.container}>
-        <Text style={styles.title}>Mensajes</Text>
-      </SafeAreaView>
       <ChatList />
     </>
   );
