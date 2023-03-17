@@ -6,7 +6,7 @@ import { getReactNativePersistence } from "firebase/auth/react-native";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyB5dbKO0HFevN1gV70T7-174JvON4lpDcE",
+  apiKey: "AIzaSyBrTvOQOVP9cxnjUGEy-Jh4gPuQ6J1Df38",
   authDomain: "tinder-clone-82dec.firebaseapp.com",
   projectId: "tinder-clone-82dec",
   storageBucket: "tinder-clone-82dec.appspot.com",
