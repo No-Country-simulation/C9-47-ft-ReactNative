@@ -14,7 +14,7 @@ import Background from "../svgs/card_background.png";
 import theme from "../theme";
 import ActionsButtons from "./ActionsButtons";
 import { getTimeLapsed } from "../utilities/utilities";
-import { collection, doc, getDoc } from "@firebase/firestore";
+import { doc, getDoc } from "@firebase/firestore";
 import { db, mainCollection } from "../firebase/credentials";
 
 const { colors, text } = theme;

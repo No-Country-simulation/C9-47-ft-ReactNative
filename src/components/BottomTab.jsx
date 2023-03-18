@@ -43,7 +43,7 @@ export default function BottomTab({ navigation }) {
         name="Inicio"
         component={Home}
         options={{
-          tabBarIcon: ({ color }) => (
+          tabBarIcon: () => (
             <View style={tab === 1 ? styles.activeBackTab : styles.inactiveTab}>
               <View style={tab === 1 ? styles.activeTab : styles.inactiveTab}>
                 <HomeIcon
@@ -62,7 +62,7 @@ export default function BottomTab({ navigation }) {
         name="Conexiones"
         component={Conexiones}
         options={{
-          tabBarIcon: ({ color }) => (
+          tabBarIcon: () => (
             <View style={tab === 2 ? styles.activeBackTab : styles.inactiveTab}>
               <View style={tab === 2 ? styles.activeTab : styles.inactiveTab}>
                 <ConectionsIcon
@@ -80,7 +80,7 @@ export default function BottomTab({ navigation }) {
         name="Mensajes"
         component={ChatScreen}
         options={{
-          tabBarIcon: ({ color }) => (
+          tabBarIcon: () => (
             <View style={tab === 3 ? styles.activeBackTab : styles.inactiveTab}>
               <View style={tab === 3 ? styles.activeTab : styles.inactiveTab}>
                 <MessagesIcon
@@ -104,7 +104,7 @@ export default function BottomTab({ navigation }) {
         name="Perfil"
         component={DrawerNavigatorProfile}
         options={{
-          tabBarIcon: ({ color }) => (
+          tabBarIcon: () => (
             <View style={tab === 4 ? styles.activeBackTab : styles.inactiveTab}>
               <View style={tab === 4 ? styles.activeTab : styles.inactiveTab}>
                 <ProfileIcon
