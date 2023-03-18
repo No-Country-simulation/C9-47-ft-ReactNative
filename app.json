@@ -2,9 +2,8 @@
   "expo": {
     "name": "job-match",
     "slug": "job-match",
-    "plugins": [
-      "expo-image-picker"
-    ],
+    "plugins": ["expo-image-picker"],
+    "scheme": "job-match",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -17,9 +16,7 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
@@ -28,9 +25,7 @@
         "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#091D5C"
       },
-      "permissions": [
-        "android.permission.RECORD_AUDIO"
-      ],
+
       "package": "com.nico_radin.jobmatch",
       "softwareKeyboardLayoutMode": "pan"
     },
