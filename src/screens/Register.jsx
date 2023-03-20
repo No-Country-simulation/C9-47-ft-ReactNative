@@ -72,10 +72,10 @@ const Register = () => {
             style={[
               styles.text,
               styles.textTop,
-              { fontSize: 26, marginBottom: 4 },
+              { fontSize: 22, marginBottom: 4 },
             ]}
           >
-            Crear Cuenta
+            Login
           </Text>
         </View>
         <View style={{ marginLeft: -30 }}>
