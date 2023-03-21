@@ -9,7 +9,7 @@ import {
 } from "react-native";
 import Constants from "expo-constants";
 import Header from "../components/Header";
-import { Ionicons, Octicons, Feather } from "@expo/vector-icons";
+import { Ionicons, Octicons } from "@expo/vector-icons";
 import { useState, useContext, useEffect } from "react";
 import CircularProgress from "react-native-circular-progress-indicator";
 import { UserLoginContex } from "../context/UserDataContext";
