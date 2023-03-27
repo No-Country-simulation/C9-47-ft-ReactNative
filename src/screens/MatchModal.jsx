@@ -144,7 +144,11 @@ const MatchModal = () => {
           navigation.goBack();
           navigation.navigate("Main");
         }}
-        styleContainer={{ marginTop: 30 }}
+        styleContainer={{
+          marginTop: 30,
+          backgroundColor: colors.primary,
+          color: colors.secondary,
+        }}
       />
     </View>
   );
@@ -159,7 +163,7 @@ const styles = StyleSheet.create({
     opacity: 1,
     alignItems: "center",
     justifyContent: "center",
-    backgroundColor: colors.primary,
+    backgroundColor: colors.background,
   },
   title: {
     fontSize: 32,
